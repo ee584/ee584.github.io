@@ -1,6 +1,20 @@
 header {
   text-align: center;
-  background: url('http://www.yoganonymous.com/system/image_assets/images/000/031/727/original/beach_yoga_sequence.jpg?1470674576');
-  
+  background: url('http://www.yoganonymous.com/system/image_assets/images/000/031/727/original/beach_yoga_sequence.jpg?1470674576') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  top: -10%;
+  left: -10%;
+  right: -10%;
+  min-width: 100%;
+  min-height: -10%;
+  padding: 100px;
+  font-family: 'Montserrat';
+  font-size: 50px;
+  color: white;
 
+}
+body {
+  text-align: center;
+  font-family: 'Montserrat'
 }

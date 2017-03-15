@@ -2,22 +2,28 @@
 <html>
 <title>food + travel</title>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <style>
+
+html {
+    font-family: 'Montserrat', sans-serif;
+  }
+
 #begin {
   text-align: center;
   background: url('http://www.yoganonymous.com/system/image_assets/images/000/031/727/original/beach_yoga_sequence.jpg?1470674576') no-repeat center center fixed;
   background-size: cover;
   position: relative;
-  top: -10%;
   left: -10%;
   right: -10%;
   min-width: 100%;
   min-height: -10%;
-  padding: 100px;
-  font-family: 'Montserrat';
+  padding: 75px;
   font-size: 50px;
   color: white;
-}
+  margin-top: -1%;
+  }
+
 #food{
 	text-align: center;
   background: url('food.jpg') no-repeat center center fixed;
@@ -28,11 +34,11 @@
   right: -10%;
   min-width: 100%;
   min-height: -10%;
-  padding: 100px;
-  font-family: 'Montserrat';
+  padding: 75px;
   font-size: 50px;
   color: white;
-}
+  }
+
 #travel{
 	text-align: center;
   background: url('travel.jpeg') no-repeat center center fixed;
@@ -43,26 +49,61 @@
   right: -10%;
   min-width: 100%;
   min-height: -10%;
-  padding: 100px;
-  font-family: 'Montserrat';
+  padding: 75px;
   font-size: 50px;
   color: black;
-}
+  margin-bottom: 0px;
+  }
+
 div {
   text-align: center;
-  font-family: 'Montserrat'
 }
+
 #faces{
+  margin-top: 100px;
+  margin-bottom: 200px;
+  padding-left: 100px;
+  padding-bottom: 0px;
+
+
 
 }
+
 .img{
   margin-top:500px; /*to have the space above the image*/
-   margin-bottom:0px; /*to have the space under the image*/
+  margin-bottom:0px; /*to have the space under the image*/
 
 }
 
-#about{
+.about{
+  padding-left: 150px;
 
+
+  }
+
+.aboutus{
+  text-align: left;
+  padding-left: 200px;
+  padding-bottom: 50px;
+
+}
+#contact{
+  text-align: ;
+}
+
+.description{
+  text-align: left;
+
+}
+
+#elise{
+  border-radius: 100px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+#lori{
+  border-radius: 100px;
 }
 </style>
 
@@ -72,15 +113,6 @@ div {
 
   <h1> KEEP CALM</h1>
 </div>
-<p>
-<div id="about">
-  <div class"text">
-  ABOUT US
-  </div>
-<div id="faces">
-    <img src="elise.jpg">
-</div>
-</p>
 <div class="img" id="food">
 
   <h1>EAT</h1>
@@ -92,11 +124,40 @@ div {
 
  </div>
 
-<body>
- <h1></h1>
+ <p>
+ <div class="about">
 
-  </div>
-</body>
+ <table style="width:100%">
+   <tr>
+     <th><div class="aboutus">ABOUT US</th></div>
+     <th><div class="aboutus" id="contact">CONTACT US</th></div>
+
+     </tr>
+   <tr>
+     <td><img src="elise.jpg" height="200" align="left" id="elise">
+       <div class="description">
+         <p>ELISE</p>
+         <p>Hi!</p>
+        </div>
+     </td>
+   </tr>
+   <tr>
+     <td><img src="lori.jpg" height="200" align="left" id="lori"></td>
+   </tr>
+   
+</div>
+
+
+ </table>
+
+ <div id="faces">
+
+
+
+
+
+ </div>
+ </p>
 
 
 </html>
